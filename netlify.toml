@@ -1,0 +1,11 @@
+
+[[redirects]]
+from = "/*"
+to  = "/index.html"
+status = 200
+
+[[redirects]]
+  from = "https://ecommerce-app-2023-mini-projrct-btech.onrender.com/*"
+  to = "https://ecommerce-app-2023-mini-projrct-btech.onrender.com/:splat"
+  status = 200
+  force = true
